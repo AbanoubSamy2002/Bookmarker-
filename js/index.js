@@ -66,6 +66,11 @@ function display() {
 function clear() {
   siteNameInput.value = null;
   siteUrlInput.value = null;
+
+  siteNameInput.classList.remove("is-valid");
+  siteUrlInput.classList.remove("is-valid");
+
+
 }
 
 // Delete Dtata
